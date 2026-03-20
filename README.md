@@ -1,56 +1,128 @@
 # El Bakkali
 
-Building tools that make cloud monitoring and web security less painful, plus the occasional DIY smart home project. Everything open source, everything free.
+I build free, open-source tools that help engineers troubleshoot Azure cloud monitoring and web security — turning hours of investigation into seconds of answers.
+
+I work across cloud observability, edge security, and IoT hardware — building offline-first diagnostic tools, serverless security layers, and DIY smart home devices. Everything I ship is open source, privacy-first, and designed to run at zero cost.
+
+...troubleshooting, fixing things, and building what should already exist.
+
+<img src="https://img.shields.io/badge/Azure-Monitor%20%26%20Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure"> <img src="https://img.shields.io/badge/Cloudflare-Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"> <img src="https://img.shields.io/badge/ESP32-ESPHome-000000?style=flat-square&logo=esphome&logoColor=white" alt="ESPHome"> <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT">
 
 ---
 
-### What I Build
+## Summary
 
-**[Azure Monitor & Sentinel](https://github.com/stars/el-bakkali/lists/azure-monitor-tools)** — Diagnostic and validation tools for engineers working with Azure's data collection pipeline. When syslog messages aren't arriving, data collection rules are silently dropping data, or the Azure Monitor Agent can't connect — these tools tell you exactly what's wrong.
-
-| Project | What it does |
-|---|---|
-| [DCR & KQL Validator](https://github.com/el-bakkali/dcr-kql-validator) | Offline desktop tool for validating Data Collection Rules and KQL transformation queries before deployment. Built with Rust + Tauri. |
-| [Syslog CEF Analyzer](https://github.com/el-bakkali/SyslogCEFAnalyzer) | Drop a pcap or log file → instantly see which syslog and CEF messages are valid, malformed, or missing fields. 8 automated diagnostic rules. |
-| [AMA Network Analyzer](https://github.com/el-bakkali/AMANetworkAnalyzer) | Diagnose Azure Monitor Agent connectivity issues from packet captures. 7 diagnostic rules covering DNS, TLS, firewalls, proxies, and Private Link. |
-| [Logs Ingestion API Troubleshooter](https://github.com/el-bakkali/azure-logs-ingestion-api-troubleshooter) | Step-by-step Bruno API collection for diagnosing DCR stream mismatches, column misalignments, and ingestion failures. |
-| [Azure Brute-Force Defense](https://github.com/el-bakkali/azure-bruteforce-defense) | AI-powered SSH threat hunting with Azure OpenAI — ask questions about your security logs in plain English. |
-| [Cloudflare Log Ingestion](https://github.com/el-bakkali/cf-log-ingestion) | Automated Cloudflare WAF firewall log ingestion into Azure Log Analytics. 42 KQL queries and a full workbook included. |
-
-**Cloudflare Edge Security** — Lightweight security tools that run entirely on Cloudflare Workers (free tier), with zero JavaScript on the client, zero cookies, and zero tracking.
-
-| Project | What it does |
-|---|---|
-| [CF Bot Guard](https://github.com/el-bakkali/cf-bot-guard) | 16-signal bot detection + privacy-respecting analytics with a built-in dashboard. All at the edge, no cookies, no JS. |
-| [CF Email Domain Decoy](https://github.com/el-bakkali/cf-email-domain-decoy) | Cryptic decoy landing page for email-only domains with bot fingerprinting and Moroccan geometric CSS art. |
-| [Blog Guard](https://github.com/el-bakkali/blog-guard) | Path allowlist for static sites — redirects scanners to the homepage as a silent bot trap. |
-
-**ESP32 & Smart Home** — DIY hardware projects using ESPHome and Home Assistant, because paying shop prices for smart home gear is daft.
-
-| Project | What it does |
-|---|---|
-| [ESP32-A1S Sendspin](https://github.com/el-bakkali/esp32-a1s-sendspin) | Multi-room audio with the ESP32-A1S Audio Kit and Music Assistant. ⭐ 11 stars |
-| [Air Quality Monitor](https://github.com/el-bakkali/esphome-air-quality-monitor) | CO2, temperature, humidity & VOC monitoring on the Cheap Yellow Display with a custom LVGL UI. |
-| [Thread Border Router](https://github.com/el-bakkali/esp-thread-border-router) | A £15 Thread Border Router with Ethernet backhaul — replaces a £130 Apple HomePod or Google Hub. |
-| [DIY Streaming Key Light](https://github.com/el-bakkali/diy-streaming-key-light) | A ~£25 bi-colour streaming panel that replaces a £200 Elgato Key Light. |
+- 🔧 15 open-source projects across cloud monitoring, edge security, and IoT hardware
+- 🛡️ Security-conscious — audited against OWASP ASVS, NIST CSF, and CIS Controls
+- 🔌 Offline-first — every desktop tool works without an internet connection, zero telemetry
+- 🏗️ Zero-dependency builds — custom pcap parsers, syslog/CEF parsers, and packet dissectors from scratch
+- 💷 Free tier friendly — Cloudflare Workers, Azure Flex Consumption, and £15 ESP32 boards
 
 ---
 
-### How I Build
+## Selected Work
 
-- **Offline-first** — Every desktop tool works without an internet connection. No telemetry, no phone-home.
-- **Zero dependencies where possible** — Custom pcap parsers, syslog/CEF parsers, and packet dissectors built from scratch in pure .NET and Rust.
-- **Security-conscious** — Audited against OWASP ASVS, NIST CSF, and CIS Controls. Managed identity over API keys. Input validation at every boundary.
-- **Free tier friendly** — Cloudflare Workers, Azure Functions on Flex Consumption, and ESP32 microcontrollers. If it can run for free, it does.
+### ☁️ [Azure Monitor & Sentinel](https://github.com/stars/el-bakkali/lists/azure-monitor-tools)
+
+Diagnostic and validation tools for Azure's data collection pipeline. When syslog messages aren't arriving, DCRs are silently dropping data, or the Azure Monitor Agent can't connect — these tools tell you exactly what's wrong.
+
+- **[dcr-kql-validator](https://github.com/el-bakkali/dcr-kql-validator)** — DCR & KQL Transformation Validator
+
+  - Offline desktop tool for validating Data Collection Rules and KQL transformation queries before deployment.
+  - Built with Rust + Tauri. ~8 MB binary, 3 direct dependencies, zero network calls.
+  - Validates ~90 allowed KQL scalar functions, detects blocked operators, checks `TimeGenerated` output.
+
+- **[SyslogCEFAnalyzer](https://github.com/el-bakkali/SyslogCEFAnalyzer)** — Syslog & CEF Message Format Analyzer
+
+  - Drop a `.pcap` or log file → instantly see which messages are valid, malformed, or missing fields.
+  - 8 automated diagnostic rules: format detection, PRI validation, RFC 3164/5424, CEF, Cisco ASA/FTD, encoding, transport.
+  - TCP stream reassembly, streaming pcap reader (up to 2 GB), drill-down UI. Zero NuGet packages.
+
+- **[AMANetworkAnalyzer](https://github.com/el-bakkali/AMANetworkAnalyzer)** — AMA Network Trace Analyzer
+
+  - Diagnose Azure Monitor Agent connectivity issues from pcap/pcapng/etl/cab captures.
+  - 7 diagnostic rules: endpoint connectivity, DNS resolution, firewall blocking, proxy detection, TLS/cipher compliance, Private Link/AMPLS detection.
+  - Supports Azure Commercial, Government, and China sovereign clouds.
+
+- **[azure-logs-ingestion-api-troubleshooter](https://github.com/el-bakkali/azure-logs-ingestion-api-troubleshooter)** — Logs Ingestion API Troubleshooter
+
+  - Step-by-step Bruno API collection for diagnosing DCR stream declaration mismatches, column misalignments, and ingestion failures.
+  - Pre-flight schema diff compares your JSON payload against the DCR before sending.
+  - Includes a one-command demo environment deployment script.
+
+- **[azure-bruteforce-defense](https://github.com/el-bakkali/azure-bruteforce-defense)** — AI-Powered SSH Threat Hunting
+
+  - Conversational threat hunting — ask "Who's attacking my server?" and Azure OpenAI queries your logs and responds with structured analysis.
+  - Full-stack: Ubuntu VM with Fail2ban + Azure Functions + Microsoft Sentinel + GPT-4o-mini.
+  - Zero hardcoded secrets — all auth via managed identity.
+
+- **[cf-log-ingestion](https://github.com/el-bakkali/cf-log-ingestion)** — Cloudflare WAF → Azure Log Analytics
+
+  - Automated pipeline: Cloudflare GraphQL API → Python Azure Function → DCR → custom table (23 columns).
+  - 42 ready-to-use KQL queries (dashboard, alerts, threat hunting, ML anomaly detection) and a deployable Azure Monitor Workbook.
+  - Runs within Azure free tier for low-traffic sites.
+
+<details>
+<summary>🔗 <strong>Browse the full collection →</strong> <a href="https://github.com/stars/el-bakkali/lists/azure-monitor-tools">Azure Monitor Tools star list</a></summary>
+<br>
+All six Azure projects are grouped in a curated GitHub Stars list for easy discovery.
+</details>
 
 ---
 
-### Languages & Tools
+### 🛡️ Cloudflare Edge Security
 
-`Rust` · `C#` · `JavaScript` · `Python` · `PowerShell` · `Bicep` · `KQL` · `YAML`
+Lightweight security tools that run entirely on Cloudflare Workers (free tier). Zero JavaScript on the client, zero cookies, zero tracking.
 
-Tauri · .NET · Cloudflare Workers · Azure Functions · ESPHome · Home Assistant · Bruno API Client
+- **[cf-bot-guard](https://github.com/el-bakkali/cf-bot-guard)** — Bot Detection & Analytics
+
+  - Scores every visitor 0–100 using 16 detection signals. Classifies ISPs by type (hosting, mobile, residential, education, corporate).
+  - Privacy-respecting analytics stored in KV with a built-in 22-panel HTML dashboard. No cookies, no JS, no PII.
+  - Transparent proxy — adds intelligence headers (`x-bot-score`, `x-isp-type`) without blocking.
+
+- **[cf-email-domain-decoy](https://github.com/el-bakkali/cf-email-domain-decoy)** — Decoy Landing Page
+
+  - Cryptic, minimal page for email-only domains with Moroccan geometric CSS art and bot fingerprinting.
+  - Zero JavaScript, zero external resources, zero PII exposure. Every path returns identical content.
+
+- **[blog-guard](https://github.com/el-bakkali/blog-guard)** — Static Site Path Allowlist
+
+  - Allowlists valid paths via KV and redirects everything else to the homepage — a silent bot trap through the rate limiter.
+  - Defence-in-depth: WAF → Bot Fight Mode → Rate Limiting → blog-guard.
 
 ---
 
-*All projects are MIT licensed.*
+### 🔩 ESP32 & Smart Home
+
+DIY hardware projects using ESPHome and Home Assistant — because paying shop prices for smart home gear is daft.
+
+- **[esp32-a1s-sendspin](https://github.com/el-bakkali/esp32-a1s-sendspin)** — Multi-Room Audio ⭐ 11 stars
+
+  - Working ESPHome config for the ESP32-A1S Audio Kit with Sendspin protocol for synchronised multi-room playback via Music Assistant.
+
+- **[esphome-air-quality-monitor](https://github.com/el-bakkali/esphome-air-quality-monitor)** — Air Quality Monitor
+
+  - CO2, temperature, humidity & VOC monitoring on the Cheap Yellow Display (ESP32-2432S028) with a custom LVGL touchscreen UI.
+  - Memory-optimised for ESP32 without PSRAM (~45-50 KB LVGL footprint).
+
+- **[esp-thread-border-router](https://github.com/el-bakkali/esp-thread-border-router)** — Thread Border Router
+
+  - ESP32-S3 + W5500 Ethernet module = a £15 Thread Border Router with wired backhaul.
+  - Replaces a £130 Apple HomePod or Google Nest Hub for Matter-over-Thread devices.
+
+- **[diy-streaming-key-light](https://github.com/el-bakkali/diy-streaming-key-light)** — Streaming Key Light
+
+  - A ~£25 bi-colour LED panel with full CCT control (3200K–5600K), Home Assistant integration, and a local web UI.
+  - Replaces a £200 Elgato Key Light.
+
+---
+
+## 🛠️ Languages & Tools
+
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"> <img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"> <img src="https://img.shields.io/badge/KQL-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="KQL"> <img src="https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Bicep">
+
+Tauri · Cloudflare Workers · Azure Functions · ESPHome · Home Assistant · Bruno API Client
+
+---
+
+*All projects are MIT licensed. Everything runs offline or on free tiers. No telemetry, ever.*

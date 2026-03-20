@@ -12,19 +12,27 @@ I work across cloud observability, edge security, and IoT hardware — building 
 
 ## Summary
 
-- 🔧 15 open-source projects across cloud monitoring, edge security, and IoT hardware
-- 🛡️ Security-conscious — audited against OWASP ASVS, NIST CSF, and CIS Controls
-- 🔌 Offline-first — every desktop tool works without an internet connection, zero telemetry
-- 🏗️ Zero-dependency builds — custom pcap parsers, syslog/CEF parsers, and packet dissectors from scratch
-- 💷 Free tier friendly — Cloudflare Workers, Azure Flex Consumption, and £15 ESP32 boards
+- 15 open-source projects across cloud monitoring, edge security, and IoT hardware
+- Security-conscious — audited against OWASP ASVS, NIST CSF, and CIS Controls
+- Offline-first — every desktop tool works without an internet connection, zero telemetry
+- Zero-dependency builds — custom pcap parsers, syslog/CEF parsers, and packet dissectors from scratch
+- Free tier friendly — Cloudflare Workers, Azure Flex Consumption, and ESP32 boards
+
+---
+
+## Featured
+
+> **[Azure Monitor Tools](https://github.com/stars/el-bakkali/lists/azure-monitor-tools)** — A curated collection of diagnostic and validation tools for Azure Monitor data collection pipelines. DCR validation, syslog/CEF analysis, AMA network diagnostics, log ingestion troubleshooting, and AI-powered threat hunting. All free, all offline, all open source.
 
 ---
 
 ## Selected Work
 
-### ☁️ [Azure Monitor & Sentinel](https://github.com/stars/el-bakkali/lists/azure-monitor-tools)
+<details>
+<summary><strong>Azure Monitor & Sentinel</strong> — Diagnostic and validation tools for Azure's data collection pipeline</summary>
+<br>
 
-Diagnostic and validation tools for Azure's data collection pipeline. When syslog messages aren't arriving, DCRs are silently dropping data, or the Azure Monitor Agent can't connect — these tools tell you exactly what's wrong.
+When syslog messages aren't arriving, DCRs are silently dropping data, or the Azure Monitor Agent can't connect — these tools tell you exactly what's wrong.
 
 - **[dcr-kql-validator](https://github.com/el-bakkali/dcr-kql-validator)** — DCR & KQL Transformation Validator
 
@@ -34,7 +42,7 @@ Diagnostic and validation tools for Azure's data collection pipeline. When syslo
 
 - **[SyslogCEFAnalyzer](https://github.com/el-bakkali/SyslogCEFAnalyzer)** — Syslog & CEF Message Format Analyzer
 
-  - Drop a `.pcap` or log file → instantly see which messages are valid, malformed, or missing fields.
+  - Drop a `.pcap` or log file — instantly see which messages are valid, malformed, or missing fields.
   - 8 automated diagnostic rules: format detection, PRI validation, RFC 3164/5424, CEF, Cisco ASA/FTD, encoding, transport.
   - TCP stream reassembly, streaming pcap reader (up to 2 GB), drill-down UI. Zero NuGet packages.
 
@@ -56,27 +64,23 @@ Diagnostic and validation tools for Azure's data collection pipeline. When syslo
   - Full-stack: Ubuntu VM with Fail2ban + Azure Functions + Microsoft Sentinel + GPT-4o-mini.
   - Zero hardcoded secrets — all auth via managed identity.
 
-- **[cf-log-ingestion](https://github.com/el-bakkali/cf-log-ingestion)** — Cloudflare WAF → Azure Log Analytics
+- **[cf-log-ingestion](https://github.com/el-bakkali/cf-log-ingestion)** — Cloudflare WAF to Azure Log Analytics
 
-  - Automated pipeline: Cloudflare GraphQL API → Python Azure Function → DCR → custom table (23 columns).
+  - Automated pipeline: Cloudflare GraphQL API, Python Azure Function, DCR, custom table (23 columns).
   - 42 ready-to-use KQL queries (dashboard, alerts, threat hunting, ML anomaly detection) and a deployable Azure Monitor Workbook.
   - Runs within Azure free tier for low-traffic sites.
 
-<details>
-<summary>🔗 <strong>Browse the full collection →</strong> <a href="https://github.com/stars/el-bakkali/lists/azure-monitor-tools">Azure Monitor Tools star list</a></summary>
-<br>
-All six Azure projects are grouped in a curated GitHub Stars list for easy discovery.
 </details>
 
----
+<details>
+<summary><strong>Cloudflare Edge Security</strong> — Lightweight security tools on Cloudflare Workers (free tier)</summary>
+<br>
 
-### 🛡️ Cloudflare Edge Security
-
-Lightweight security tools that run entirely on Cloudflare Workers (free tier). Zero JavaScript on the client, zero cookies, zero tracking.
+Zero JavaScript on the client, zero cookies, zero tracking.
 
 - **[cf-bot-guard](https://github.com/el-bakkali/cf-bot-guard)** — Bot Detection & Analytics
 
-  - Scores every visitor 0–100 using 16 detection signals. Classifies ISPs by type (hosting, mobile, residential, education, corporate).
+  - Scores every visitor 0-100 using 16 detection signals. Classifies ISPs by type (hosting, mobile, residential, education, corporate).
   - Privacy-respecting analytics stored in KV with a built-in 22-panel HTML dashboard. No cookies, no JS, no PII.
   - Transparent proxy — adds intelligence headers (`x-bot-score`, `x-isp-type`) without blocking.
 
@@ -88,15 +92,17 @@ Lightweight security tools that run entirely on Cloudflare Workers (free tier). 
 - **[blog-guard](https://github.com/el-bakkali/blog-guard)** — Static Site Path Allowlist
 
   - Allowlists valid paths via KV and redirects everything else to the homepage — a silent bot trap through the rate limiter.
-  - Defence-in-depth: WAF → Bot Fight Mode → Rate Limiting → blog-guard.
+  - Defence-in-depth: WAF, Bot Fight Mode, Rate Limiting, blog-guard.
 
----
+</details>
 
-### 🔩 ESP32 & Smart Home
+<details>
+<summary><strong>ESP32 & Smart Home</strong> — DIY hardware projects using ESPHome and Home Assistant</summary>
+<br>
 
-DIY hardware projects using ESPHome and Home Assistant — because paying shop prices for smart home gear is daft.
+Because paying shop prices for smart home gear is daft.
 
-- **[esp32-a1s-sendspin](https://github.com/el-bakkali/esp32-a1s-sendspin)** — Multi-Room Audio ⭐ 11 stars
+- **[esp32-a1s-sendspin](https://github.com/el-bakkali/esp32-a1s-sendspin)** — Multi-Room Audio (11 stars)
 
   - Working ESPHome config for the ESP32-A1S Audio Kit with Sendspin protocol for synchronised multi-room playback via Music Assistant.
 
@@ -107,17 +113,19 @@ DIY hardware projects using ESPHome and Home Assistant — because paying shop p
 
 - **[esp-thread-border-router](https://github.com/el-bakkali/esp-thread-border-router)** — Thread Border Router
 
-  - ESP32-S3 + W5500 Ethernet module = a £15 Thread Border Router with wired backhaul.
+  - ESP32-S3 + W5500 Ethernet module = a Thread Border Router with wired backhaul for about £15.
   - Replaces a £130 Apple HomePod or Google Nest Hub for Matter-over-Thread devices.
 
 - **[diy-streaming-key-light](https://github.com/el-bakkali/diy-streaming-key-light)** — Streaming Key Light
 
-  - A ~£25 bi-colour LED panel with full CCT control (3200K–5600K), Home Assistant integration, and a local web UI.
+  - A ~£25 bi-colour LED panel with full CCT control (3200K-5600K), Home Assistant integration, and a local web UI.
   - Replaces a £200 Elgato Key Light.
+
+</details>
 
 ---
 
-## 🛠️ Languages & Tools
+## Languages & Tools
 
 <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"> <img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"> <img src="https://img.shields.io/badge/KQL-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="KQL"> <img src="https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Bicep">
 

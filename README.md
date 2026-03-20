@@ -1,4 +1,4 @@
-# El Bakkali
+# Mehdi El Bakkali
 
 I build free, open-source tools that help engineers troubleshoot Azure cloud monitoring and web security — turning hours of investigation into seconds of answers.
 

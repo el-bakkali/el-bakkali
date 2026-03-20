@@ -6,7 +6,23 @@ I work across cloud observability, edge security, and IoT hardware — building 
 
 ...troubleshooting, fixing things, and building what should already exist.
 
-<img src="https://img.shields.io/badge/Azure-Monitor%20%26%20Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure"> <img src="https://img.shields.io/badge/Cloudflare-Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"> <img src="https://img.shields.io/badge/ESP32-ESPHome-000000?style=flat-square&logo=esphome&logoColor=white" alt="ESPHome"> <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT">
+---
+
+## Featured
+
+<table>
+<tr>
+<td>
+
+<a href="https://github.com/stars/el-bakkali/lists/azure-monitor-tools"><img src="https://img.shields.io/badge/Azure%20Monitor%20Tools-View%20Collection%20→-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Monitor Tools"></a>
+
+A curated collection of diagnostic and validation tools for Azure Monitor data collection pipelines — DCR validation, syslog/CEF analysis, AMA network diagnostics, log ingestion troubleshooting, and AI-powered threat hunting.
+
+All free. All offline. All open source.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -18,11 +34,7 @@ I work across cloud observability, edge security, and IoT hardware — building 
 - Zero-dependency builds — custom pcap parsers, syslog/CEF parsers, and packet dissectors from scratch
 - Free tier friendly — Cloudflare Workers, Azure Flex Consumption, and ESP32 boards
 
----
-
-## Featured
-
-> **[Azure Monitor Tools](https://github.com/stars/el-bakkali/lists/azure-monitor-tools)** — A curated collection of diagnostic and validation tools for Azure Monitor data collection pipelines. DCR validation, syslog/CEF analysis, AMA network diagnostics, log ingestion troubleshooting, and AI-powered threat hunting. All free, all offline, all open source.
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"> <img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"> <img src="https://img.shields.io/badge/KQL-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="KQL"> <img src="https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Bicep">
 
 ---
 
@@ -127,10 +139,8 @@ Because paying shop prices for smart home gear is daft.
 
 ## Languages & Tools
 
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"> <img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"> <img src="https://img.shields.io/badge/KQL-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="KQL"> <img src="https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Bicep">
-
 Tauri · Cloudflare Workers · Azure Functions · ESPHome · Home Assistant · Bruno API Client
 
 ---
 
-*All projects are MIT licensed. Everything runs offline or on free tiers. No telemetry, ever.*
+<sub>All projects are MIT licensed. Everything runs offline or on free tiers. No telemetry, ever.</sub>

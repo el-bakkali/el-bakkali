@@ -6,7 +6,7 @@ Building tools that make cloud monitoring and web security less painful, plus th
 
 ### What I Build
 
-**Azure Monitor & Sentinel** — Diagnostic and validation tools for engineers working with Azure's data collection pipeline. When syslog messages aren't arriving, data collection rules are silently dropping data, or the Azure Monitor Agent can't connect — these tools tell you exactly what's wrong.
+**[Azure Monitor & Sentinel](https://github.com/stars/el-bakkali/lists/azure-monitor-tools)** — Diagnostic and validation tools for engineers working with Azure's data collection pipeline. When syslog messages aren't arriving, data collection rules are silently dropping data, or the Azure Monitor Agent can't connect — these tools tell you exactly what's wrong.
 
 | Project | What it does |
 |---|---|

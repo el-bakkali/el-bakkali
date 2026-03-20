@@ -29,7 +29,7 @@ All free. All offline. All open source.
 ## Summary
 
 - 15 open-source projects across cloud monitoring, edge security, and IoT hardware
-- Security-conscious — audited against OWASP ASVS, NIST CSF, and CIS Controls
+- Privacy and security by default — offline processing, no telemetry, no credentials in code, validated inputs at every boundary
 - Offline-first — every desktop tool works without an internet connection, zero telemetry
 - Zero-dependency builds — custom pcap parsers, syslog/CEF parsers, and packet dissectors from scratch
 - Free tier friendly — Cloudflare Workers, Azure Flex Consumption, and ESP32 boards

@@ -1,4 +1,4 @@
-# Mehdi El Bakkali
+# Mehdi El Bakkali &nbsp; <img src="https://komarev.com/ghpvc/?username=el-bakkali&style=flat-square&color=blue&label=profile+views" align="right" alt="Profile views" />
 
 I build free, open-source tools that help engineers troubleshoot Azure cloud monitoring and web security — turning hours of investigation into seconds of answers.
 
@@ -138,6 +138,19 @@ Because paying shop prices for smart home gear is daft.
 <a href="https://tauri.app"><img src="https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white" alt="Tauri"></a> <a href="https://workers.cloudflare.com"><img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers"></a> <a href="https://learn.microsoft.com/azure/azure-functions"><img src="https://img.shields.io/badge/Azure%20Functions-0062AD?style=flat-square&logo=azurefunctions&logoColor=white" alt="Azure Functions"></a> <a href="https://esphome.io"><img src="https://img.shields.io/badge/ESPHome-000000?style=flat-square&logo=esphome&logoColor=white" alt="ESPHome"></a> <a href="https://www.home-assistant.io"><img src="https://img.shields.io/badge/Home%20Assistant-41BDF5?style=flat-square&logo=homeassistant&logoColor=white" alt="Home Assistant"></a> <a href="https://www.usebruno.com"><img src="https://img.shields.io/badge/Bruno-F4A83D?style=flat-square&logo=bruno&logoColor=white" alt="Bruno"></a>
 
 <a href="https://www.kali.org"><img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux"></a> <a href="https://ubuntu.com"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu"></a> <a href="https://www.debian.org"><img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" alt="Debian"></a> <a href="https://www.pfsense.org"><img src="https://img.shields.io/badge/pfSense-212121?style=flat-square&logo=pfsense&logoColor=white" alt="pfSense"></a> <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a> <a href="https://www.proxmox.com"><img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox"></a> <a href="https://gethomepage.dev"><img src="https://img.shields.io/badge/Homepage-3174F1?style=flat-square&logo=homepage&logoColor=white" alt="Homepage"></a> <a href="https://openwrt.org"><img src="https://img.shields.io/badge/OpenWrt-00B5E2?style=flat-square&logo=openwrt&logoColor=white" alt="OpenWrt"></a> <a href="https://linuxcontainers.org"><img src="https://img.shields.io/badge/LXC-333333?style=flat-square&logo=linuxcontainers&logoColor=white" alt="Linux Containers"></a> <a href="https://kubernetes.io"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"></a>
+
+---
+
+## GitHub Activity
+
+<a href="https://github.com/el-bakkali">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=el-bakkali&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&card_width=450" alt="Stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=el-bakkali&theme=tokyonight&hide_border=true" alt="Streak" />
+</a>
+
+<a href="https://github.com/el-bakkali">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=el-bakkali&layout=compact&theme=tokyonight&hide_border=true&card_width=445" alt="Top Languages" />
+</a>
 
 ---
 

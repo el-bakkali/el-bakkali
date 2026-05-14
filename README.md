@@ -141,17 +141,4 @@ Because paying shop prices for smart home gear is daft.
 
 ---
 
-## GitHub Activity
-
-<a href="https://github.com/el-bakkali">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=el-bakkali&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&card_width=450" alt="Stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=el-bakkali&theme=tokyonight&hide_border=true" alt="Streak" />
-</a>
-
-<a href="https://github.com/el-bakkali">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=el-bakkali&layout=compact&theme=tokyonight&hide_border=true&card_width=445" alt="Top Languages" />
-</a>
-
----
-
 <sub>All projects are MIT licensed. Everything runs offline or on free tiers. No telemetry, ever.</sub>

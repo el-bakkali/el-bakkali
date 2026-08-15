@@ -13,7 +13,7 @@ I work across cloud observability, edge security, and IoT hardware,  building of
 > [!NOTE]
 > <a href="https://github.com/stars/el-bakkali/lists/azure-monitor-tools"><img src="https://img.shields.io/badge/Azure%20Monitor%20Tools-View%20Collection%20→-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Monitor Tools"></a>
 >
-> A curated collection of diagnostic and validation tools for Azure Monitor data collection pipelines — DCR validation, syslog/CEF analysis, AMA network diagnostics, log ingestion troubleshooting, and AI-powered threat hunting.
+> A curated collection of diagnostic and validation tools for Azure Monitor data collection pipelines , DCR validation, syslog/CEF analysis, AMA network diagnostics, log ingestion troubleshooting, and AI-powered threat hunting.
 >
 > $\color{#00C853}{\textsf{All free.}}$ $\color{#0078D4}{\textsf{All offline.}}$ $\color{#FF6D00}{\textsf{All open source.}}$
 

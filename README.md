@@ -1,8 +1,8 @@
 # Mehdi El Bakkali &nbsp; <img src="https://komarev.com/ghpvc/?username=el-bakkali&style=flat-square&color=blue&label=profile+views" align="right" alt="Profile views" />
 
-I build free, open-source tools that help engineers troubleshoot Azure cloud monitoring and web security — turning hours of investigation into seconds of answers.
+I build free, open-source tools that help engineers troubleshoot Azure cloud monitoring and web security turning hours of investigation into seconds of answers.
 
-I work across cloud observability, edge security, and IoT hardware — building offline-first diagnostic tools, serverless security layers, and DIY smart home devices. Everything I ship is open source, privacy-first, and designed to run at zero cost.
+I work across cloud observability, edge security, and IoT hardware,  building offline-first diagnostic tools, serverless security layers, and DIY smart home devices. Everything I ship is open source, privacy-first, and designed to run at zero cost.
 
 ...troubleshooting, fixing things, and building what should already exist.
 

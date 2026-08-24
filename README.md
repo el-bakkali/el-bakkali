@@ -146,8 +146,7 @@ Because paying shop prices for smart home gear is daft.
 
 ## Get in touch
 
-Best way to reach me is an issue on the relevant repo. Otherwise, find me on my [Blog](https://blog.lixxus.uk).
-<!-- TODO: add blog / email / LinkedIn -->
+<a href="https://www.linkedin.com/in/el-bakkali/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://blog.lixxus.uk"><img src="https://img.shields.io/badge/Blog-blog.lixxus.uk-333333?style=flat-square&logo=hugo&logoColor=white" alt="Blog"></a>
 
 ---
 

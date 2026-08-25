@@ -146,7 +146,7 @@ Because paying shop prices for smart home gear is daft.
 
 ## Get in touch
 
-<a href="https://www.linkedin.com/in/el-bakkali/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://blog.lixxus.uk/?ref=gh-profile"><img src="https://img.shields.io/badge/Blog-blog.lixxus.uk-333333?style=flat-square&logo=hugo&logoColor=white" alt="Blog"></a>
+<a href="https://www.linkedin.com/in/el-bakkali/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://blog.lixxus.uk"><img src="https://img.shields.io/badge/Blog-blog.lixxus.uk-333333?style=flat-square&logo=hugo&logoColor=white" alt="Blog"></a>
 
 ---
 

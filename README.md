@@ -1,4 +1,15 @@
-# Mehdi El Bakkali &nbsp; <img src="https://komarev.com/ghpvc/?username=el-bakkali&style=flat-square&color=blue&label=profile+views" align="right" alt="Profile views" />
+<p align="center">
+  <a href="https://blog.lixxus.uk/?ref=gh-banner">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+      <img width="90%" alt="Mehdi El Bakkali — Senior Escalation Engineer and Security Consultant" src="./assets/header-light.svg">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=el-bakkali&style=flat-square&color=blue&label=profile+views" alt="Profile views" />
+</p>
 
 I build free, open-source tools that help engineers troubleshoot Azure cloud monitoring and web security. What used to take hours of investigation takes seconds.
 

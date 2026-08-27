@@ -2,7 +2,7 @@
   <a href="https://blog.lixxus.uk/?ref=gh-banner">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-      <img width="90%" alt="Mehdi El Bakkali — Senior Escalation Engineer and Security Consultant" src="./assets/header-light.svg">
+      <img width="70%" alt="Mehdi El Bakkali — Senior Escalation Engineer and Security Consultant" src="./assets/header-light.svg">
     </picture>
   </a>
 </p>

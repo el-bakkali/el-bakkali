@@ -13,9 +13,7 @@
 
 I build free, open-source tools that help engineers troubleshoot Azure cloud monitoring and web security. What used to take hours of investigation takes seconds.
 
-I work across cloud observability, edge security, and IoT hardware, building offline-first diagnostic tools, serverless security layers, and DIY smart home devices. Everything I ship is open source, privacy-first, and runs at zero cost.
-
-Mostly troubleshooting, fixing things, and building what should already exist.
+I work across cloud observability, edge security, and IoT hardware, building offline-first diagnostic tools, serverless security layers, and DIY smart home devices. Everything I ship is open source, privacy-first, and runs at zero cost. Mostly troubleshooting, fixing things, and building what should already exist.
 
 ---
 
@@ -27,16 +25,6 @@ Mostly troubleshooting, fixing things, and building what should already exist.
 > A curated collection of diagnostic and validation tools for the Azure Monitor data collection pipeline: DCR validation, syslog/CEF analysis, AMA network diagnostics, log ingestion troubleshooting, and AI-powered threat hunting.
 >
 > **All free. All offline. All open source.**
-
----
-
-## Summary
-
-- Open-source projects across cloud monitoring, edge security, and IoT hardware
-- Privacy and security by default: offline processing, no telemetry, no credentials in code, validated inputs at every boundary
-- Every desktop tool works without an internet connection
-- Zero-dependency builds: pcap parsers, syslog/CEF parsers, and packet dissectors written from scratch
-- Free tier friendly: Cloudflare Workers, Azure Flex Consumption, and ESP32 boards
 
 ---
 

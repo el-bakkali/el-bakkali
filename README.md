@@ -43,7 +43,7 @@ Mostly troubleshooting, fixing things, and building what should already exist.
 ## Selected Work
 
 <details>
-<summary><strong>Azure Monitor & Sentinel</strong>: diagnostic and validation tools for Azure's data collection pipeline <sub>(click to expand)</sub></summary>
+<summary><sub>(click to expand)</sub> <strong>Azure Monitor & Sentinel</strong>: diagnostic and validation tools for Azure's data collection pipeline</summary>
 <br>
 
 These tools tell you exactly what's wrong when syslog messages aren't arriving, DCRs are silently dropping data, or the Azure Monitor Agent can't connect.
@@ -87,7 +87,7 @@ These tools tell you exactly what's wrong when syslog messages aren't arriving, 
 </details>
 
 <details>
-<summary><strong>Cloudflare Edge Security</strong>: lightweight security tools on Cloudflare Workers (free tier) <sub>(click to expand)</sub></summary>
+<summary><sub>(click to expand)</sub> <strong>Cloudflare Edge Security</strong>: lightweight security tools on Cloudflare Workers (free tier)</summary>
 <br>
 
 Zero JavaScript on the client, zero cookies, zero tracking.
@@ -111,7 +111,7 @@ Zero JavaScript on the client, zero cookies, zero tracking.
 </details>
 
 <details>
-<summary><strong>ESP32 & Smart Home</strong>: DIY hardware projects using ESPHome and Home Assistant <sub>(click to expand)</sub></summary>
+<summary><sub>(click to expand)</sub> <strong>ESP32 & Smart Home</strong>: DIY hardware projects using ESPHome and Home Assistant</summary>
 <br>
 
 Because paying shop prices for smart home gear is daft.
